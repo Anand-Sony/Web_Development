@@ -38,11 +38,11 @@ body {
 }
 
 header {
-    background-color: black; /* optional background color */
-    padding: 1em; /* optional padding */
+    background-color: black; 
+    padding: 1em;
     position: sticky;
     margin-bottom: 0;
-    text-align: center; /* center the links */
+    text-align: center; 
 }
   
 header a {
@@ -50,11 +50,11 @@ header a {
     font-size: 20px;
     font-weight: bold;
     transition: color 0.2s ease;
-    color: white; /* default text color */
+    color: white; 
 }
   
 header a:hover {
-    color: #333; /* hover text color */
+    color: #333; 
 }
   
 header ul {
@@ -63,22 +63,22 @@ header ul {
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* space links evenly */
+    justify-content: space-between; /
 }
   
 header li {
-    margin-right: 2px; /* add some space between links */
+    margin-right: 2px; 
 }
 
 header .footer_logo img {
-    width: 80px; /* adjust the width as needed */
-    height: 50px; /* adjust the height as needed */
-    background-image: url(logo.png); /* replace with your logo image */
-    margin-right: 2px; /* add some space between the logo and the link */
+    width: 80px; 
+    height: 50px; 
+    background-image: URL("yoga.png"); 
+    margin-right: 2px; 
 }
 
 .top_button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border:1px solid #a3daa5;
     text-decoration: none;
     font-size: 20px;
@@ -87,7 +87,7 @@ header .footer_logo img {
     color: white;
 }
 header .top_button:hover {
-    color: #333; /* hover text color */
+    color: #333; 
 }
 
 .text1 {
@@ -135,7 +135,7 @@ header .top_button:hover {
 }
 .cards {
     height:60vh;
-    top: 35%; /* adjust the top value to position the cards */
+    top: 35%; 
     left: 0;
     width: 100%;
     display: flex;
@@ -204,31 +204,31 @@ header .top_button:hover {
 }
 
 .card-image1 {
-    width: 240px; /* Set the width of the image to 100 pixels */
-    height: 300px; /* Set the height of the image to 100 pixels */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    object-fit: cover; /* Ensure the image is scaled to fit the container */
-    border-radius: 5px; /* Add a rounded corner to the image */
+    width: 240px; 
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; /
+    object-fit: cover;
+    border-radius: 5px; 
 }
 .card-image2 {
-    width: 240px; /* Set the width of the image to 100 pixels */
-    height: 300px; /* Set the height of the image to 100 pixels */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    object-fit: cover; /* Ensure the image is scaled to fit the container */
-    border-radius: 5px; /* Add a rounded corner to the image */
+    width: 240px; 
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
 .card-image3 {
-    width: 240px; /* Set the width of the image to 100 pixels */
-    height: 300px; /* Set the height of the image to 100 pixels */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    object-fit: cover; /* Ensure the image is scaled to fit the container */
-    border-radius: 5px; /* Add a rounded corner to the image */
+    width: 240px; 
+    height: 300px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
 
 .card1 h2,
@@ -237,15 +237,15 @@ header .top_button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0; /* Remove the top margin of the h2 element */
-    margin-bottom: 5px; /* Set the bottom margin of the h2 element to 5 pixels */
+    margin-top: 0; 
+    margin-bottom: 5px;
 }
 
 .card1 p,
 .card2 p,
 .card3 p {
-    margin-top: 0; /* Remove the top margin of the p element */
-    margin-bottom: 10px; /* Set the bottom margin of the p element to 10 pixels */
+    margin-top: 0; 
+    margin-bottom: 10px; 
 }
 
 .card1:hover,
