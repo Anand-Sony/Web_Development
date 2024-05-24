@@ -24,12 +24,12 @@ function showtime(){
     document.getElementById('clock1').innerText = time;
 
 
-    var now2 = moment().tz('America/Chicago'); // Get the current time in New York
+    var now2 = moment().tz('America/Chicago'); // Get the current time in Chicago
     var time = now2.format('hh : mm : ss : A');
     document.getElementById('clock2').innerText = time;
 
 
-    var now = moment().tz('Europe/Zurich'); // Get the current time in New York
+    var now = moment().tz('Europe/Zurich'); // Get the current time in Europe
     var time = now.format('hh : mm : ss : A');
     document.getElementById('clock3').innerText = time;
 
