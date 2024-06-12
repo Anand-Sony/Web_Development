@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("pngtree-illustration-of-3d-personal-bank-account-and-credit-card-with-money-picture-image_3950197.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* image is fixed and text or other thing will float*/
+}
+
+.container{
+    background-image: url("pngtree-illustration-of-3d-personal-bank-account-and-credit-card-with-money-picture-image_3950197.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 2px rgba(198, 193, 193, 0.1);
+    background-color: transparent;
+    /* make our container scale big when cursor move on it*/
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0, 0,0 ,0.1);
+}
+
+h1{
+    color: white;
+    font-size: 31px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group label{
+    /* display: flex;
+    flex-direction: column; */  /* use only display = block  in place of these 2 codes*/
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculate-btn{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #2979ff;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#calculateBtn{
+    font-size: 20px;
+}
+
+.calculate-btn:hover{
+    background-color: #193b75;
+}
+
+.result{
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
