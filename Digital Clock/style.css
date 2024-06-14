@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background : linear-gradient(to right ,#000102 , #0e447a ,#207dda , #1c8af8 , #e9f4ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(to left, #043a41, #0e8896, #149ead, #78f1ff, #cafaff);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.2);
+    padding: 10px 10px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.9s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.time {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+.colon {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 10px;
+}
