@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stone Paper Scissors Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="background-video">
+		<video autoplay loop  playsinline muted controls >
+			<source src="Lumion 10 _ Nature _ Cinematic _ Animation _ Lumion Video _ Lumion Animation.mp4" type="video/mp4">
+		</video>
+	</div>
+	<!-- rest of your game HTML code here -->
+
+    <section class="main1">
+        <h1>Stone Paper Scissors 
+            <span style="color:red;">G</span>
+            <span style="color: yellow;">a</span>
+            <span style="color:green ;">m</span>
+            <span style="color: blue;">e</span>
+
+        </h1>
+        <button id="start">Start Game</button>
+        <div id="choices" style="display: none;">
+            <button id="stone">Stone</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="exit">Exit</button>
+        </div>
+        <div id="result"></div>
+        <div id="score">Wins: 0 & Losses: 0</div>
+
+    </section>
+	<script src="script.js"></script>
+</body>
+</html>
