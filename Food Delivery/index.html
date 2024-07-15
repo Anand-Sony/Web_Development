@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- first we will make a header in which there will be various link like 
+        logo, home ,search ,offers, help,signin and cart
+    -->
+
+    <div class="container">
+        <header>
+            <nav>
+                <ul>   
+                    <li id="non_head_title"><a href="#" ><i class="fas fa-bars" id="menu-icon"></i></a>
+                    
+                        <ul id="dropdown-menu">
+                            <li id="menu-icon-link"><a href="#">Home</a></li>
+                            <li id="menu-icon-link"><a href="#">Special</a></li>
+                            <li id="menu-icon-link"><a href="#">Phone</a></li>
+                            <li id="menu-icon-link"><a href="#">Help</a></li>
+                            <li id="menu-icon-link"><a href="#">Email</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="non_head_title"><a href="#">Swiggy Corporate</a></li>
+                    <li id="non_head_title"><a href="#">Search</a></li>
+                    <li id="non_head_title"><a href="#">Offers</a></li>
+                    <li id="non_head_title"><a href="#">Help</a></li>
+                    <li id="non_head_title"><a href="#">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="menu-section">
+                <h2 id="whats">What' On Your Mind 😋</h2>
+                <ul class="menu-list">
+                    <li id="image">
+                        <img src="C:\Users\hp\OneDrive\Desktop\Coding Area\Web Development\Food Delivery\main\Pizza.avif" alt="Pizza"  <button class="add-to-cart-btn" data-name="Pizza : " data-price="10.99"></button>
+
+                    </li>
+                    <li id="image">
+                        <img src="C:\Users\hp\OneDrive\Desktop\Coding Area\Web Development\Food Delivery\main\Pav_Bhaji.avif" alt="Pav Bhaji"   <button class="add-to-cart-btn" data-name="Pav Bhaji" data-price="5.99"></button>
+
+                    </li>
+                    <li id="image">
+                        <img src="C:\Users\hp\OneDrive\Desktop\Coding Area\Web Development\Food Delivery\main\Burger.avif" alt="Burger"   <button class="add-to-cart-btn" data-name="Burger : " data-price="15.99"></button>
+
+
+                    </li>
+                    <li id="image">
+                        <img src="main/Noodles.avif" alt="Noodles" <button class="add-to-cart-btn" data-name="Noodles : " data-price="25.99"></button>
+
+
+                    </li>
+                    <li id="image">
+                        <img src="C:\Users\hp\OneDrive\Desktop\Coding Area\Web Development\Food Delivery\main\Rolls.avif" alt="Rolls" <button class="add-to-cart-btn" data-name="Rolls : " data-price="9.99"></button>
+                        
+
+                    </li>
+                    <li id="image">
+                        <img src="C:\Users\hp\OneDrive\Desktop\Coding Area\Web Development\Food Delivery\main\Momos.avif" alt="Momos" <button class="add-to-cart-btn" data-name="Momos : " data-price="19.99"></button>
+                    </li>
+                </ul>
+            </section>
+    
+
+
+            <!-- Cart section -->
+            <section class="cart-section">
+                <div class="cart-sectionPart">
+                    <h2>Shopping Cart</h2>
+                    <ul id="cart-list"></ul>
+                    <div class="cart-summary">
+                    <span id="cart-total">Total: $0.00</span>
+                </div>
+                <button id="checkout-btn" type="submit">Checkout</button>
+                <!-- Thank You message container -->
+                <div id="thank-you-message" style="display: none;"></div>
+
+                <!-- Bill container -->
+                <div id="bill-container" style="display: none;">
+                <p id="bill"></p>
+                </div>
+
+
+            </section>
+
+
+            <section class="findRes">
+                <h1>Find Restaurants Near Me :</h1>
+                <form id="search-form">
+                  <input type="text" id="search-input" list="city-list" placeholder="Enter your location">
+                  <datalist id="city-list">
+                    <!-- options will be populated dynamically -->
+                  </datalist>
+                  <button id="search-button">Search</button>
+                </form>
+                <div id="restaurant-list">
+                  <!-- Restaurant list will be displayed here -->
+                  <ul id="restaurant-ul">
+                    <!-- restaurant list items will be populated dynamically -->
+                  </ul>
+                </div>
+              </section>
+
+
+        </main>
+
+
+
+        <footer>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Swiggy One</a></li>
+            <li><a href="#">Swiggy Instamart</a></li>
+            <li><a href="#">Swiggy Genie</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">We deliver to:</a></li>
+            <li style="font-style: italic;"><a href="#">Bangalore</a></li>
+            <li style="font-style: italic;"><a href="#">Gurgaon</a></li>
+            <li style="font-style: italic;"><a href="#">Hyderabad</a></li>
+            <li style="font-style: italic;"><a href="#">Delhi</a></li>
+            <li style="font-style: italic;"><a href="#">Mumbai</a></li>
+            <li style="font-style: italic;"><a href="#">Pune</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Investor Relations</a></li>
+        </ul>
+        <p>&copy; 2024 Technologies Pvt. Ltd</p>
+    </footer>
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
